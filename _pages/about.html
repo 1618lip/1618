@@ -1,0 +1,87 @@
+---
+layout: about
+title: about
+permalink: /
+subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+
+profile:
+  align: right
+  image: prof_pic.jpg
+  image_circular: false # crops the image to make it circular
+  more_info: >
+    <p>555 your office number</p>
+    <p>123 your address street</p>
+    <p>Your City, State 12345</p>
+
+selected_papers: true # includes a list of papers marked as "selected={true}"
+social: true # includes social icons at the bottom of the page
+
+announcements:
+  enabled: true # includes a list of news items
+  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
+  limit: 5 # leave blank to include all the news in the `_news` folder
+
+latest_posts:
+  enabled: true
+  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
+  limit: 3 # leave blank to include all the blog posts
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Philip Pincencia"
+    />
+    <script
+      src="https://kit.fontawesome.com/24fbc0d8dc.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="_pages/main.css" /> 
+     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    
+    <script defer src="_pages/script.js"></script>
+    <script src="https://unpkg.com/three@0.150.1/build/three.min.js"></script>
+    <script src="https://unpkg.com/three-spritetext"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/0.155.0/three.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script></head>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/p5.min.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/matter-js/0.19.0/matter.min.js"></script> -->
+    <script src="https://pixijs.download/release/pixi.min.js"></script>
+
+  </head>
+  <body>
+    <canvas id="particle-bg"></canvas>
+    <main>
+      <canvas id="canvas"></canvas>
+      <div id="hero" class="content-section">
+        <p>Hi, I’m</p>
+        <h1 id="hero-name">
+            <span class="name-letter"></span>
+            <span class="name-letter">P</span>
+            <span class="name-letter">h</span>
+            <span class="name-letter">i</span>
+            <span class="name-letter">l</span>
+            <span class="name-letter">i</span>
+            <span class="name-letter">p</span>
+            &nbsp;
+            <span class="name-letter">P</span>
+            <span class="name-letter">i</span>
+            <span class="name-letter">n</span>
+            <span class="name-letter">c</span>
+            <span class="name-letter">e</span>
+            <span class="name-letter">n</span>
+            <span class="name-letter">c</span>
+            <span class="name-letter">i</span>
+            <span class="name-letter">a</span>
+        </h1>
+        <p class="subheading">and I am a <span id="typewriter"></span></p>
+      </div>
+    </main>
+  </body>
+</html>
